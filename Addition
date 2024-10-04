@@ -4,3 +4,8 @@ void add(a,b){
 int sum = a+b;
 printf("%d",sum);
 }
+void subtract(a,b)
+{
+    int sub=a-b;
+    printf("%d", sub);
+}
