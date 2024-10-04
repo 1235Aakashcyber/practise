@@ -16,4 +16,9 @@ add(a,b);
 sub(a,b);
 mul(a,b);
 }
+void add(a,b){
+int sum = a+b;
+printf("%d",sum);
+}
+
 
