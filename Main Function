@@ -14,16 +14,19 @@ scanf("%d",&b);
 div(a,b);
 add(a,b);
 sub(a,b);
-mul(a,b);
 }
 void add(a,b){
 int sum = a+b;
 printf("%d",sum);
 }
-void sub(a,b)
+void sub(int a, int b);
 {
     int sub=a-b;
     printf("%d", sub);
+}
+void div(int a, int b){
+    div=a/b;
+    printf("%d",div);
 }
 
 
