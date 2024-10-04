@@ -19,14 +19,13 @@ void add(a,b){
 int sum = a+b;
 printf("%d",sum);
 }
-void sub(int a, int b);
+void sub(int a, int b)
 {
     int sub=a-b;
     printf("%d", sub);
 }
 void div(int a, int b){
-    div=a/b;
-    printf("%d",div);
+    printf("%d",a/b);
 }
 
 
